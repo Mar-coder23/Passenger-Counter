@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100vh;
+    max-width: 100%;
+    background-color: rgb(36, 35, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.capacityNote{
+    color: white;
+}
+#boxContainer{
+    height: 25em;
+    width: 25em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+.titleLine{
+
+}
+.titleLine h1{
+
+}
+.counterLine{
+
+}
+.counterLine p{
+    font-size: 3em;
+}
+.btnsLine{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btnsLine button{
+    padding: .2em 1.2em;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btnsLine .addBtn{
+    font-size: 1.2em;
+    background-color: rgb(17, 216, 17);
+    transition: .1s ease-in-out;
+}
+.btnsLine .addBtn:hover{
+    background-color: rgb(107, 228, 107);
+}
+.btnsLine .addBtn:active{
+    background-color: rgb(17, 216, 17);
+}
+.btnsLine .deleteBtn{
+    font-size: 1.2em;
+    background-color: rgb(236, 57, 57);
+}
+.btnsLine .deleteBtn:hover{
+    background-color: rgb(224, 103, 103);
+}
+.btnsLine .deleteBtn:active{
+    background-color: rgb(236, 57, 57);
+}
